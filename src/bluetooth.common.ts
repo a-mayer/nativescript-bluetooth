@@ -1,4 +1,4 @@
-import Observable from 'nativescript-observable';
+import { Observable } from 'tns-core-modules/data/observable/observable';
 
 // declare var require;
 export class BluetoothUtil {
