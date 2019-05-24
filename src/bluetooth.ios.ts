@@ -20,6 +20,7 @@ import {
     StopNotifyingOptions,
     WriteOptions
 } from './bluetooth.common';
+import { setTimeout } from 'tns-core-modules/timer';
 
 function nativeEncoding(encoding: string) {
     switch (encoding) {

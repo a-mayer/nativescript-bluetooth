@@ -26,6 +26,7 @@ import {
     WriteOptions
 } from './bluetooth.common';
 import * as pQueue from 'p-queue';
+import { setTimeout } from 'tns-core-modules/timer';
 
 let _bluetoothInstance: Bluetooth;
 export function getBluetoothInstance() {
